@@ -1,3 +1,10 @@
+<?php
+  $id = $_GET['id'];
+
+  $data_query = mysqli_query("$connect","SELECT * FROM marketing WHERE id_marketing='$id'");
+  $data = mysqli_fetch_array($data_query);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,8 +23,8 @@
         <div>Jawa barat 40562</div>
       </div>
       <div id="project">
-        <div><span>PROJECT</span> Website development</div>
-        <div><span>CLIENT</span> John Doe</div>
+        <div><span>PROJECT</span> Ajuan Pengadaan Barang</div>
+        <div><span>CLIENT</span> <?php echo $data['konsumen_marketing'];?></div>
         <div><span>ADDRESS</span> 796 Silver Harbour, TX 79273, US</div>
         <div><span>EMAIL</span> <a href="mailto:john@example.com">john@example.com</a></div>
         <div><span>DATE</span> August 17, 2015</div>
