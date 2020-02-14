@@ -213,7 +213,7 @@
                                             <form method="POST">
                                             <div class="form-group">
                                                 <div class="label">Silahkan Isi Nama Supplier</div>
-                                                <input class="au-input form-produksi" type="text" name="konsumen" placeholder="konsumen">
+                                                <input class="au-input form-produksi" type="text" name="konsumen" placeholder="Supplier">
                                             </div>
                                             <div class="form-group">
                                                 <div class="label">Tanggal Pengajuan</div>
