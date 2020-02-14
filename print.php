@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="clearfix">
-        <p style="font-size:75pt; text-align:center;"></p>
+        <p style="font-size:75pt; text-align:center;">CV. AMKA</p>
       <h1>INVOICE 3-2-1</h1>
       <div id="company" class="clearfix">
         <div>Company Name</div>
