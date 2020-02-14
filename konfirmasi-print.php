@@ -249,7 +249,7 @@
                 if($insert_query){
                     echo "
                         <script>
-                            location = 'print.php?id=<?php echo $id ?>';
+                            location = 'print.php?id=$id';
                         </script>
                     ";
                 }
