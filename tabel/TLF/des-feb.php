@@ -316,7 +316,7 @@
                    <th class=xl6514053 style='border-top:none;border-left:none'>M-24</th>
                    <th class=xl6514053 style='border-top:none;border-left:none'>M-25</th>
                    <th class=xl6514053 style='border-top:none;border-left:none'>M-26</th>
-                /tr>
+                </tr>
             </thead>
             <tbody>
                 <tr height=34 style='height:25.5pt'>
