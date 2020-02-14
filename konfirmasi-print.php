@@ -212,6 +212,10 @@
                                             <h3 class="title-2 m-b-40">Konfirmasi Laporan</h3>
                                             <form method="POST">
                                             <div class="form-group">
+                                                <div class="label">Silahkan Isi Nama Konsumen</div>
+                                                <input class="au-input form-produksi" type="text" name="konsumen" placeholder="konsumen">
+                                            </div>
+                                            <div class="form-group">
                                                 <div class="label">Tanggal Pengajuan</div>
                                                 <input class="au-input form-produksi" type="text" name="tanggal" value="<?php echo $data['tanggal_marketing']; ?>" disabled>
                                             </div>
@@ -223,6 +227,7 @@
                                                 <div class="label">Jumlah</div>
                                                 <input class="au-input form-produksi" type="text" name="jumlah" value="<?php echo $data['jumlah_marketing']; ?>" disabled>
                                             </div>
+                                            <button class="au-btn au-btn--green m-b-20 button-produksi" type="submit" name="print">PRINT</button>
                                             </form>
                                         </div>
                                     </div>
