@@ -4,6 +4,8 @@
   $data_query = mysqli_query($connect,"SELECT * FROM marketing WHERE id_marketing='$id'");
   $data = mysqli_fetch_array($data_query);
 
+  echo $id;
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
