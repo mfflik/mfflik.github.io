@@ -7,9 +7,7 @@
   </head>
   <body>
     <header class="clearfix">
-      <div id="logo">
-        <img src="logo.png">
-      </div>
+      <h1>CV Amka</h1>
       <h1>INVOICE 3-2-1</h1>
       <div id="company" class="clearfix">
         <div>Company Name</div>
