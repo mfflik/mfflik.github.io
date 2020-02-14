@@ -251,7 +251,7 @@
                         <script>
                             location = 'print.php?id=echo $id';
                         </script>
-                    "
+                    ";
                 }
             }
         ?>
