@@ -1,3 +1,3 @@
 <?php
-    $connect = mysqli_connect('localhost','root','','inventory');
+    $connect = mysqli_connect('remotemysql.com','zErTqfLtZH','wBaq2TwkYW','zErTqfLtZH');
 ?>
