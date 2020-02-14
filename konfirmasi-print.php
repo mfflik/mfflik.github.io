@@ -191,6 +191,16 @@
         <!-- PAGE CONTAINER-->
         <div class="page-container">
 
+        <!-- PHP AMBIL DATA -->
+        <?php
+            $id = $_GET['id'];
+            $data_query = mysqli_query($connect,"SELECT * FROM marketing WHERE id_marketing = '$id'");
+
+            $data = mysqli_fetch_array($data_query);
+
+        ?>
+        <!-- END PHP AMBIL DATA -->
+
             <!-- MAIN CONTENT-->
             <div class="main-content">
                 <div class="section__content section__content--p30">
@@ -202,8 +212,16 @@
                                             <h3 class="title-2 m-b-40">Konfirmasi Laporan</h3>
                                             <form method="POST">
                                             <div class="form-group">
-                                                <div class="label">Silahkan isi Nama Konsumen</div>
-                                                <input class="au-input form-produksi" type="text" name="konsumes" placeholder="Jumlah">
+                                                <div class="label">Tanggal Pengajuan</div>
+                                                <input class="au-input form-produksi" type="text" name="tanggal" value="<?php echo $data['tanggal_marketing']; ?>" disabled>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="label">Jenis Produk</div>
+                                                <input class="au-input form-produksi" type="text" name="produk" value="<?php echo $data['produk_marketing']; ?>" disabled>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="label">Jumlah</div>
+                                                <input class="au-input form-produksi" type="text" name="jumlah" value="<?php echo $data['jumlah_marketing']; ?>" disabled>
                                             </div>
                                             </form>
                                         </div>

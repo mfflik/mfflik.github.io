@@ -14686,6 +14686,12 @@ section {
     width: 100% !important;
 }
 
+.form-marketing{
+    height: 40px;
+    margin-top: 10px;
+    width: 80% !important;
+}
+
 .button-pemilik-ya{
     background-color: rgb(11, 207, 87);
     height: 100%;
