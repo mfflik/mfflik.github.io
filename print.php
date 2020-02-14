@@ -26,7 +26,7 @@
       </div>
       <div id="project">
         <div><span>PROJECT</span> Ajuan Pengadaan Barang</div>
-        <div><span>CLIENT</span> <?php echo $data['konsumen_marketing'];?></div>
+        <div><span>SUPPLIER</span> <?php echo $data['konsumen_marketing'];?></div>
       </div>
     </header>
     <main>

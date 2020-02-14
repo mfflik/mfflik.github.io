@@ -212,7 +212,7 @@
                                             <h3 class="title-2 m-b-40">Konfirmasi Laporan</h3>
                                             <form method="POST">
                                             <div class="form-group">
-                                                <div class="label">Silahkan Isi Nama Konsumen</div>
+                                                <div class="label">Silahkan Isi Nama Supplier</div>
                                                 <input class="au-input form-produksi" type="text" name="konsumen" placeholder="konsumen">
                                             </div>
                                             <div class="form-group">

@@ -1,4 +1,7 @@
 
+    <div class="alert alert-dark text-center" role="alert">
+    Tabel TLN Bulan Juni - Agustus
+    </div>
     <div class="table-responsive table--no-card m-b-30" >
         <table class="table table-borderless table-striped table-earning table-khusus">
             <thead >
