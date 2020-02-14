@@ -1,7 +1,7 @@
 <div class="col-lg-12">
                                 <div class="user-data m-b-30" style="padding-left:30px; padding-right:30px">
                                     <h3 class="title-3 m-b-30">
-                                        <i class="zmdi zmdi-account-calendar"></i>Jadwal Induk Produksi
+                                        <i class="zmdi zmdi-account-calendar"></i>Jadwal Induk Produksi TLF
                                     </h3>
                                         <div class="table-responsive table--no-card m-b-30">
                                             <table class="table table-borderless table-striped table-earning table-khusus">
