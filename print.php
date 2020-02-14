@@ -8,12 +8,12 @@
   <body>
     <header class="clearfix">
         <h1 style="font-size:50pt; text-align:center;">CV. AMKA</h1>
-      <h1>INVOICE 3-2-1</h1>
+      <h1>INVOICE</h1>
       <div id="company" class="clearfix">
-        <div>Company Name</div>
-        <div>455 Foggy Heights,<br /> AZ 85004, US</div>
-        <div>(602) 519-0450</div>
-        <div><a href="mailto:company@example.com">company@example.com</a></div>
+        <div>CV. AMKA</div>
+        <div>Jalan Raya cihampelas, mekarmukti<br /> Kec.cihampelas</div>
+        <div>Kabupaten bandung barat</div>
+        <div>Jawa barat 40562</div>
       </div>
       <div id="project">
         <div><span>PROJECT</span> Website development</div>
