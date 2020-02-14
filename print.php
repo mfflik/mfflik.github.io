@@ -46,7 +46,7 @@
             <td><?php echo $data['tanggal_marketing']; ?></td>
             <td><?php echo $data['konsumen_marketing']; ?></td>
             <td><?php echo $data['produk_marketing']; ?></td>
-            <td><?php echo $data['jumlah']; ?></td>
+            <td><?php echo $data['jumlah_marketing']; ?></td>
           </tr>
         </tbody>
       </table>
