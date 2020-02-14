@@ -199,44 +199,8 @@
                             <div class="col-lg-12">
                                     <div class="au-card m-b-30">
                                         <div class="au-card-inner">
-                                            <h3 class="title-2 m-b-40">Laporan</h3>
-                                            <div class="table-responsive table--no-card m-b-30" >
-                                                <form method="POST">
-                                                    <table class="table table-borderless table-striped table-earning table-khusus" style="width:100% !important">
-                                                        <thead >
-                                                            <tr>
-                                                                <th width=5%>No.</th>
-                                                                <th width=5%>Tanggal Pengajuan</th>
-                                                                <th>Produk</th>
-                                                                <th>Jumlah</th>
-                                                                <th></th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <!-- SCRIPT AMBIL DATA -->
-                                                            <?php 
-                                                                $no = 1;
-
-                                                                $data_marketing = mysqli_query($connect,"SELECT * FROM marketing ORDER BY id_marketing DESC");
-                                                                
-                                                                while($data = mysqli_fetch_array($data_marketing)){
-                                                            ?>
-                                                            <tr>
-                                                                <td><?php echo $no; ?></td>
-                                                                <td><?php echo $data['tanggal_marketing']; ?></td>
-                                                                <td><?php echo $data['produk_marketing']; ?></td>
-                                                                <td><?php echo $data['jumlah_marketing']; ?></td>
-                                                                <td><a href="konfirmasi-print.php?id=<?php echo $data['id_pengajuan']; ?>" class="button-pemilik-ya">PRINT</a></td>
-                                                            </tr>
-                                                            <?php
-                                                                    $no++;
-                                                                }
-                                                            ?>
-                                                            <!-- END SCRIPT AMBIL DATA -->
-                                                        </tbody>
-                                                    </table>
-                                                </form>
-                                            </div>
+                                            <h3 class="title-2 m-b-40">Konfirmasi Laporan</h3>
+                                            
                                         </div>
                                     </div>
                                 </div>
