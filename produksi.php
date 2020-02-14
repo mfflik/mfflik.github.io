@@ -240,9 +240,9 @@
                                                     <div class="rs-select2--dark rs-select2--md m-r-10 rs-select2--border form-produksi">
                                                         <select class="js-select2 " name="pilih_produk">
                                                             <option selected="selected" value="kosong">Pilih Produk</option>
-                                                            <option value="TLF">MRP TLF</option>
-                                                            <option value="TLHB">MRP TLHB</option>
-                                                            <option value="TLN">MRP TLN</option>
+                                                            <option value="TLF">TLF</option>
+                                                            <option value="TLHB">TLHB</option>
+                                                            <option value="TLN">TLN</option>
                                                         </select>
                                                         <div class="dropDownSelect2"></div>
                                                     </div> 
