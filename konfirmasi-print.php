@@ -229,6 +229,7 @@
                                             </div>
                                             <button class="au-btn au-btn--green m-b-20 button-produksi" type="submit" name="print">PRINT</button>
                                             </form>
+
                                         </div>
                                     </div>
                                 </div>
@@ -237,6 +238,24 @@
                 </div>
             </div>
         </div>
+
+        <!-- PHP EDIT KONSUMEN -->
+        <?php
+            if(!isset($_POST['print'])){
+                $konsumen = $_POST['konsumen'];
+
+                $insert_query=mysqli_query($connect,"UPDATE marketing SET konsumen_marketing = '$konsumen' WHERE id_marketing = '$id'");
+
+                if($insert_query){
+                    echo "
+                        <script>
+                            location = 'print.php?id=echo $id';
+                        </script>
+                    "
+                }
+            }
+        ?>
+        <!-- END PHP EDIT KONSUMEN -->
 
     </div>
 
