@@ -1,4 +1,4 @@
-    <div class="alert alert-light text-center" role="alert">
+    <div class="alert alert-dark text-center" role="alert">
     Tabel TLF Bulan Desember - Februari
     </div>
     <div class="table-responsive table--no-card m-b-30" >
