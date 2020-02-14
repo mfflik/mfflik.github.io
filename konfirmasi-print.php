@@ -241,7 +241,7 @@
 
         <!-- PHP EDIT KONSUMEN -->
         <?php
-            if(!isset($_POST['print'])){
+            if(isset($_POST['print'])){
                 $konsumen = $_POST['konsumen'];
 
                 $insert_query=mysqli_query($connect,"UPDATE marketing SET konsumen_marketing = '$konsumen' WHERE id_marketing = '$id'");
@@ -249,7 +249,7 @@
                 if($insert_query){
                     echo "
                         <script>
-                            location = 'print.php?id=echo $id';
+                            location = 'print.php?id=<?php echo $id ?>';
                         </script>
                     ";
                 }
