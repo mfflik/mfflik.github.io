@@ -1,5 +1,5 @@
-    <div class="alert alert-success" role="alert">
-    Tabel TLF Desember-Februari
+    <div class="alert alert-success text-center" role="alert">
+    Tabel Produk TLF Bulan Desember - Februari
     </div>
     <div class="table-responsive table--no-card m-b-30" >
         <table class="table table-borderless table-striped table-earning table-khusus">
