@@ -7,9 +7,7 @@
   </head>
   <body>
     <header class="clearfix">
-      <div id="logo">
-        <h1 style="font-size:75pt;"></h1>
-      </div>
+        <p style="font-size:75pt; text-align:center;"></p>
       <h1>INVOICE 3-2-1</h1>
       <div id="company" class="clearfix">
         <div>Company Name</div>
