@@ -226,7 +226,7 @@
                                                                 <td><?php echo $data['tanggal_marketing']; ?></td>
                                                                 <td><?php echo $data['produk_marketing']; ?></td>
                                                                 <td><?php echo $data['jumlah_marketing']; ?></td>
-                                                                <td><a href="konfirmasi-print.php?id=<?php echo $data['id_marketing']; ?>" class="button-pemilik-ya">PRINT</a></td>
+                                                                <td><a href="konfirmasi-print.php?id=<?php echo $data['jumlah_marketing']; ?>" class="button-pemilik-ya">PRINT</a></td>
                                                             </tr>
                                                             <?php
                                                                     $no++;
