@@ -75,6 +75,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   margin-bottom: 20px;
+  text-align-last: center;
 }
 
 table tr:nth-child(2n-1) td {
@@ -96,12 +97,12 @@ table th {
 
 table .service,
 table .desc {
-  text-align: left;
+  text-align: center;
 }
 
 table td {
   padding: 20px;
-  text-align: center;
+  text-align: center !important;
 }
 
 table td.service,
