@@ -20,8 +20,8 @@
       <h1>INVOICE</h1>
       <div id="company" class="clearfix">
         <div>CV. AMKA</div>
-        <div>Jalan Raya cihampelas, mekarmukti<br /> Kec.cihampelas</div>
-        <div>Kabupaten bandung barat</div>
+        <div>Jalan Raya Cihampelas, Mekarmukti<br /> Kec.Cihampelas</div>
+        <div>Kabupaten Bandung Barat</div>
         <div>Jawa barat 40562</div>
       </div>
       <div id="project">
@@ -35,7 +35,7 @@
           <tr>
             <th>No.</th>
             <th>TANGGAL</th>
-            <th>KONSUMEN</th>
+            <th>SUPPLIER</th>
             <th>PRODUK</th>
             <th>JUMLAH</th>
           </tr>
@@ -53,7 +53,7 @@
       
     </main>
     <footer>
-      CV AMKA - Jalan Raya cihampelas, mekarmukti, Kec.cihampelas, Kabupaten bandung barat, Jawa barat 40562
+      CV AMKA - Jalan Raya Cihampelas, Mekarmukti, Kec.Cihampelas, Kabupaten Bandung Barat, Jawa Barat 40562
     </footer>
   </body>
 </html>
