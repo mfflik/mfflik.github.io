@@ -196,11 +196,16 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-lg-6">
                                     <div class="au-card m-b-30">
                                         <div class="au-card-inner">
                                             <h3 class="title-2 m-b-40">Konfirmasi Laporan</h3>
-                                            
+                                            <form method="POST">
+                                            <div class="form-group">
+                                                <div class="label">Silahkan isi Nama Konsumen</div>
+                                                <input class="au-input form-produksi" type="text" name="konsumes" placeholder="Jumlah">
+                                            </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
