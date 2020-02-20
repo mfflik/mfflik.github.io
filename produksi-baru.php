@@ -173,12 +173,12 @@
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         
-                        <li class="active">
+                        <li >
                             <a href="produksi.php">
                                 <i class="fas fa-boxes"></i>Produksi</a>
                         </li>
 
-                        <li class="">
+                        <li class="active">
                             <a href="produksi-baru.php">
                                 <i class="fas fa-boxes"></i>Rencana Produksi Baru</a>
                         </li>
@@ -197,143 +197,169 @@
         <div class="page-container">
 
             <!-- MAIN CONTENT-->
-            <div class="main-content">
+            <div class="main-content" >
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-7">
+                            <div class="col-lg-12">
                                 <form method="POST">
-                                    <!-- USER DATA-->
-                                    <div class="user-data m-b-30">
+                                    <div class="user-data m-b-30"  style="padding-right:40px !important; padding-left:40px !important;">
                                         <h3 class="title-3 m-b-30">
-                                            <i class="zmdi zmdi-account-calendar"></i>Lihat Detail</h3>
-                                        <div class="filters m-b-45">
-                                            <div class="rs-select2--dark rs-select2--md m-r-10 rs-select2--border">
-                                                <select class="js-select2" name="jenis_produk">
-                                                    <option selected="selected" value="kosong">Pilih Produk</option>
-                                                    <option value="tlf">TLF</option>
-                                                    <option value="tlhb">TLHB</option>
-                                                    <option value="tln">TLN</option>
-                                                </select>
-                                                <div class="dropDownSelect2"></div>
-                                            </div>
-                                            <div class="rs-select2--dark rs-select2--md rs-select2--border">
-                                                <select class="js-select2 au-select-dark" name="bulan" onchange="submit()">
-                                                    <option selected="selected">Pilih Bulan</option>
-                                                    <option value="1">September - November</option>
-                                                    <option value="2">Desember - Februari</option>
-                                                    <option value="3">Maret - Mei</option>
-                                                    <option value="4">Juni - Agustus</option>
-                                                </select>
-                                                <div class="dropDownSelect2"></div>
+                                        <i class="zmdi zmdi-account-calendar"></i>Rencana Ajuan Baru</h3>
+                                    <!-- USER DATA-->
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="filters m-b-45" style="padding-left:0px !important; padding-right:0px !important">
+                                                <div class="rs-select2--dark rs-select2--md m-r-10 rs-select2--border" style="width:100% !important;">
+                                                    <select class="js-select2" name="jenis_produk">
+                                                        <option selected="selected" value="kosong">Pilih Produk</option>
+                                                        <option value="tlf">TLF</option>
+                                                        <option value="tlhb">TLHB</option>
+                                                        <option value="tln">TLN</option>
+                                                    </select>
+                                                    <div class="dropDownSelect2"></div>
+                                                </div>
                                             </div>
                                         </div>
+
+                                        <div class="col-md-3">
+                                            <div class="filters m-b-45" style="padding-left:0px !important; padding-right:0px !important">
+                                                <div class="rs-select2--dark rs-select2--md rs-select2--border" style="width:100% !important;">
+                                                    <select class="js-select2 au-select-dark" name="bulan">
+                                                        <option selected="selected">Pilih Bulan</option>
+                                                        <option value="1">September - November</option>
+                                                        <option value="2">Desember - Februari</option>
+                                                        <option value="3">Maret - Mei</option>
+                                                        <option value="4">Juni - Agustus</option>
+                                                    </select>
+                                                    <div class="dropDownSelect2"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <input class="au-input form-produksi" type="number" name="jumlah_produk" style="margin-top:0px !important" placeholder="Jumlah"> 
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <button class="au-btn au-btn--green m-b-20 button-produksi" style="margin-top:0px !important" type="submit" name="submit">Submit</button>
+                                        </div>
+                                    </div>
                                     </div>
                                 </form>
                                 <!-- END USER DATA-->
                             </div>
 
-                            <div class="col-lg-5">
-                                <div class="user-data m-b-30">
-                                    <h3 class="title-3 m-b-30">
-                                        <i class="zmdi zmdi-account-calendar"></i>Form Pengajuan
-                                    </h3>
-                                    <form method="POST">
-                                        <div class="filters m-b-45">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="rs-select2--dark rs-select2--md m-r-10 rs-select2--border form-produksi">
-                                                        <select class="js-select2 " name="pilih_produk">
-                                                            <option selected="selected" value="kosong">Pilih Produk</option>
-                                                            <option value="TLF">TLF</option>
-                                                            <option value="TLHB">TLHB</option>
-                                                            <option value="TLN">TLN</option>
-                                                        </select>
-                                                        <div class="dropDownSelect2"></div>
-                                                    </div> 
-                                                </div>
-
-                                                <div class="col-md-6">
-                                                    <input class="au-input form-produksi" type="number" name="jumlah_produk" placeholder="Jumlah"> 
-                                                </div>
-                                            </div>
-                                            <button class="au-btn au-btn--green m-b-20 button-produksi" type="submit" name="ajukan">Ajukan</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
                         </div>
 
                         <div class="row">
                             <div class="col-lg-12">
                                 <!-- SCRIPT PHP MUNCULIN TABEL -->
                                 <?php
-                                    if(isset($_POST['bulan'])){
+                                    if(isset($_POST['submit'])){
+
+                                        $jumlah = $_POST['jumlah_produk'];
                                         if($_POST['bulan']=="1"){
                                             if($_POST['jenis_produk']=="tlf"){
-                                                include 'tabel/tlf/jip.php';
-                                                include 'tabel/tlf/sep-nov.php';
+                                                echo "
+                                                    <script>
+                                                        location = 'tabel-baru/tlf/sep-nov.php?jumlah=$jumlah';
+                                                    </script>
+                                                ";
                                             }
 
                                             elseif($_POST['jenis_produk']=="tlhb"){
-                                                include 'tabel/tlhb/jip.php';
-                                                include 'tabel/tlhb/sep-nov.php';
+                                                echo "
+                                                    <script>
+                                                        location = 'tabel-baru/tlhb/sep-nov.php?jumlah=$jumlah';
+                                                    </script>
+                                                ";
                                             }
 
                                             elseif($_POST['jenis_produk']=="tln"){
-                                                include 'tabel/tln/jip.php';
-                                                include 'tabel/tln/sep-nov.php';
+                                                echo "
+                                                    <script>
+                                                        location = 'tabel-baru/tln/sep-nov.php?jumlah=$jumlah';
+                                                    </script>
+                                                ";
                                             }
                                         }
 
                                         elseif($_POST['bulan']=="2"){
                                             if($_POST['jenis_produk']=="tlf"){
-                                                include 'tabel/tlf/jip.php';
-                                                include 'tabel/tlf/des-feb.php';
+                                                echo "
+                                                    <script>
+                                                        location = 'tabel-baru/tlf/des-feb.php?jumlah=$jumlah';
+                                                    </script>
+                                                ";
                                             }
 
                                             elseif($_POST['jenis_produk']=="tlhb"){
-                                                include 'tabel/tlhb/jip.php';
-                                                include 'tabel/tlhb/des-feb.php';
+                                                echo "
+                                                    <script>
+                                                        location = 'tabel-baru/tlhb/des-feb.php?jumlah=$jumlah';
+                                                    </script>
+                                                ";
                                             }
 
                                             elseif($_POST['jenis_produk']=="tln"){
-                                                include 'tabel/tln/jip.php';
-                                                include 'tabel/tln/des-feb.php';
+                                                echo "
+                                                    <script>
+                                                        location = 'tabel-baru/tln/des-feb.php?jumlah=$jumlah';
+                                                    </script>
+                                                ";
                                             }
                                         }
 
                                         elseif($_POST['bulan']=="3"){
                                             if($_POST['jenis_produk']=="tlf"){
-                                                include 'tabel/tlf/jip.php';
-                                                include 'tabel/tlf/mar-mei.php';
+                                                echo "
+                                                    <script>
+                                                        location = 'tabel-baru/tlf/mar-mei.php?jumlah=$jumlah';
+                                                    </script>
+                                                ";
                                             }
 
                                             elseif($_POST['jenis_produk']=="tlhb"){
-                                                include 'tabel/tlhb/jip.php';
-                                                include 'tabel/tlhb/mar-mei.php';
+                                                echo "
+                                                    <script>
+                                                        location = 'tabel-baru/tlhb/mar-mei.php?jumlah=$jumlah';
+                                                    </script>
+                                                ";
                                             }
 
                                             elseif($_POST['jenis_produk']=="tln"){
-                                                include 'tabel/tln/jip.php';
-                                                include 'tabel/tln/mar-mei.php';
+                                                echo "
+                                                    <script>
+                                                        location = 'tabel-baru/tln/mar-mei.php?jumlah=$jumlah';
+                                                    </script>
+                                                ";
                                             }
                                         }
 
                                         elseif($_POST['bulan']=="4"){
                                             if($_POST['jenis_produk']=="tlf"){
-                                                include 'tabel/tlf/jip.php';
-                                                include 'tabel/tlf/jun-ags.php';
+                                               echo "
+                                                    <script>
+                                                        location = 'tabel-baru/tlf/jun-ags.php?jumlah=$jumlah';
+                                                    </script>
+                                                ";
                                             }
 
                                             elseif($_POST['jenis_produk']=="tlhb"){
-                                                include 'tabel/tlhb/jip.php';
-                                                include 'tabel/tlhb/jun-ags.php';
+                                                echo "
+                                                    <script>
+                                                        location = 'tabel-baru/tlhb/jun-ags.php?jumlah=$jumlah';
+                                                    </script>
+                                                ";
                                             }
 
                                             elseif($_POST['jenis_produk']=="tln"){
-                                                include 'tabel/tln/jip.php';
-                                                include 'tabel/tln/jun-ags.php';
+                                                echo "
+                                                    <script>
+                                                        location = 'tabel-baru/tln/jun-ags.php?jumlah=$jumlah';
+                                                    </script>
+                                                ";
                                             }
                                         }
                                     }
@@ -376,28 +402,6 @@
 
 </html>
 <!-- end document-->
-
-<!-- SCRIPT INPUT DATA KE DATABASE -->
-<?php
-    if(isset($_POST['ajukan'])){
-        $tanggal=date('Y-m-d');
-        $produk = $_POST['pilih_produk'];
-        $jumlah = $_POST['jumlah_produk'];
-        $text = "Menunggu Konfirmasi";
-
-        $input_data = mysqli_query($connect,"INSERT INTO pengajuan (tanggal_pengajuan,produk_pengajuan,jumlah_pengajuan,status_pengajuan) VALUES ('$tanggal','$produk','$jumlah','$text')");
-
-        if($input_data){
-            echo "
-                <script>
-                    alert ('Pengajuan Telah Dibuat');
-                    location = 'produksi.php';
-                </script>
-            ";
-        }
-    }
-?>
-<!-- END SCRIPT INPUT DATA KE DATABASE -->
 
 <?php
     }
