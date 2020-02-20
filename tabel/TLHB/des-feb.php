@@ -7,7 +7,7 @@
             <thead >
                 <tr height=20 style='height:15.0pt'>
                     <th colspan=16 height=20 class=xl637779 width=1080 style='height:15.0pt;
-                    width:810pt'>Level 0</th>
+                    width:810pt'>Level 0 (TLHB)</th>
                    </tr>
                    <tr height=20 style='height:15.0pt'>
                     <th height=20 class=xl637779 style='height:15.0pt;border-top:none'>Periode
@@ -152,7 +152,7 @@
         <table class="table table-borderless table-striped table-earning table-khusus">
             <thead >
                 <tr height=20 style='height:15.0pt'>
-                    <th colspan=16 height=20 class=xl637779 style='height:15.0pt'>Level 1</th>
+                    <th colspan=16 height=20 class=xl637779 style='height:15.0pt'>Level 1 (BOBBIN)</th>
                    </tr>
                    <tr height=20 style='height:15.0pt'>
                     <th height=20 class=xl637779 style='height:15.0pt;border-top:none'>Periode
@@ -297,7 +297,7 @@
         <table class="table table-borderless table-striped table-earning table-khusus">
             <thead>
                 <tr height=20 style='height:15.0pt'>
-                    <th colspan=16 height=20 class=xl637779 style='height:15.0pt'>Level 1</th>
+                    <th colspan=16 height=20 class=xl637779 style='height:15.0pt'>Level 1 (CORE)</th>
                    </tr>
                    <tr height=20 style='height:15.0pt'>
                     <th height=20 class=xl637779 style='height:15.0pt;border-top:none'>Periode
@@ -442,7 +442,7 @@
         <table class="table table-borderless table-striped table-earning table-khusus">
             <thead >
                 <tr height=20 style='height:15.0pt'>
-                    <th colspan=16 height=20 class=xl637779 style='height:15.0pt'>Level 1</th>
+                    <th colspan=16 height=20 class=xl637779 style='height:15.0pt'>Level 1 (CENTER CORE)</th>
                    </tr>
                    <tr height=20 style='height:15.0pt'>
                     <th height=20 class=xl637779 style='height:15.0pt;border-top:none'>Periode
@@ -587,7 +587,7 @@
         <table class="table table-borderless table-striped table-earning table-khusus">
             <thead >
                 <tr height=20 style='height:15.0pt'>
-                    <th colspan=16 height=20 class=xl637779 style='height:15.0pt'>Level 1</th>
+                    <th colspan=16 height=20 class=xl637779 style='height:15.0pt'>Level 1 (BASE)</th>
                    </tr>
                    <tr height=20 style='height:15.0pt'>
                     <th height=20 class=xl637779 style='height:15.0pt;border-top:none'>Periode
@@ -732,7 +732,7 @@
         <table class="table table-borderless table-striped table-earning table-khusus">
             <thead >
                 <tr height=20 style='height:15.0pt'>
-                    <th colspan=16 height=20 class=xl637779 style='height:15.0pt'>Level 1</th>
+                    <th colspan=16 height=20 class=xl637779 style='height:15.0pt'>Level 1 (WIRE)</th>
                    </tr>
                    <tr height=20 style='height:15.0pt'>
                     <th height=20 class=xl637779 style='height:15.0pt;border-top:none'>Periode

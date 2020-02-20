@@ -6,7 +6,7 @@
             <thead >
                 <tr height=20 style='height:15.0pt'>
                     <th colspan=16 height=20 class=xl6524662 width=1080 style='border-right:.5pt solid black;
-                    height:15.0pt;width:810pt'>Level 0</th>
+                    height:15.0pt;width:810pt'>Level 0 (TLHB)</th>
                    </tr>
                    <tr height=21 style='height:15.75pt'>
                     <th height=21 class=xl6324662 style='height:15.75pt;border-top:none'>Periode
@@ -152,7 +152,7 @@
             <thead >
                 <tr height=20 style='height:15.0pt'>
                     <th colspan=16 height=20 class=xl6524662 style='border-right:.5pt solid black;
-                    height:15.0pt'>Level 1</th>
+                    height:15.0pt'>Level 1 (WIRE)</th>
                    </tr>
                    <tr height=20 style='height:15.0pt'>
                     <th height=20 class=xl6324662 style='height:15.0pt;border-top:none'>Periode
@@ -298,7 +298,7 @@
             <thead >
                 <tr height=20 style='height:15.0pt'>
                     <th colspan=16 height=20 class=xl6524662 style='border-right:.5pt solid black;
-                    height:15.0pt'>Level 1</th>
+                    height:15.0pt'>Level 1 (BOBBIN)</th>
                    </tr>
                    <tr height=20 style='height:15.0pt'>
                     <th height=20 class=xl6324662 style='height:15.0pt;border-top:none'>Periode
@@ -444,7 +444,7 @@
             <thead >
             <tr height=20 style='height:15.0pt'>
                 <th colspan=16 height=20 class=xl6524662 style='border-right:.5pt solid black;
-                height:15.0pt'>Level 1</th>
+                height:15.0pt'>Level 1 (CORE)</th>
                </tr>
                <tr height=20 style='height:15.0pt'>
                 <th height=20 class=xl6324662 style='height:15.0pt;border-top:none'>Periode
@@ -590,7 +590,7 @@
             <thead >
                 <tr height=20 style='height:15.0pt'>
                     <th colspan=16 height=20 class=xl6524662 style='border-right:.5pt solid black;
-                    height:15.0pt'>Level 1</th>
+                    height:15.0pt'>Level 1 (CENTER CORE)</th>
                    </tr>
                    <tr height=20 style='height:15.0pt'>
                     <th height=20 class=xl6324662 style='height:15.0pt;border-top:none'>Periode
@@ -736,7 +736,7 @@
             <thead >
                 <tr height=20 style='height:15.0pt'>
                     <th colspan=16 height=20 class=xl6524662 style='border-right:.5pt solid black;
-                    height:15.0pt'>Level 1</th>
+                    height:15.0pt'>Level 1 (BASE)</th>
                    </tr>
                    <tr height=20 style='height:15.0pt'>
                     <th height=20 class=xl6324662 style='height:15.0pt;border-top:none'>Periode

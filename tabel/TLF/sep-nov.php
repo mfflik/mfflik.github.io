@@ -5,6 +5,9 @@
         <table class="table table-borderless table-striped table-earning table-khusus">
             <thead >
                 <!-- style="border-radius: none !important;" -->
+                <tr height=20 style='height:15.0pt'>
+                  <th colspan=16 height=20 class=xl6528824 style='height:15.0pt'>Level 0 (TLF)</th>
+                 </tr>
                 <tr>
                     <th>Periode(t)</td>
                     <th class=xl6528824 style='border-top:none;border-left:none'>M-(-2)</th>
@@ -25,6 +28,44 @@
                 </tr>
             </thead>
             <tbody>
+            <tr height=34 style='height:25.5pt'>
+                  <td height=34 class=xl6614053 width=120 style='height:25.5pt;border-top:none;
+                  width:90pt'>Gross Requirements (GR)</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>-</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>-</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>9676</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>7741</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>9676</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>9676</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>9676</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>9676</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>9676</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>9676</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>9676</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>7741</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>9676</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>9676</td>
+                  <td class=xl6514053 style='border-top:none;border-left:none'>9676</td>
+                 </tr>
+                 <tr height=34 style='height:25.5pt'>
+              <td height=34 class=xl6628824 width=120 style='height:25.5pt;border-top:none;
+              width:90pt'>Scheduled Receipts (SR)</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+              <td class=xl6528824 style='border-top:none;border-left:none'>-</td>
+             </tr>
             <tr height=34 style='height:25.5pt'>
               <td height=34 class=xl6628824  style='height:25.5pt;border-top:none;
               '>On Hand Inventory (OHI)</td>
@@ -109,7 +150,7 @@
         <table class="table table-borderless table-striped table-earning table-khusus">
             <thead>
                 <tr height=20 style='height:15.0pt'>
-                  <th colspan=16 height=20 class=xl6528824 style='height:15.0pt'>Level 1</th>
+                  <th colspan=16 height=20 class=xl6528824 style='height:15.0pt'>Level 1 (WIRE)</th>
                  </tr>
                  <tr height=20 style='height:15.0pt'>
                   <th height=20 class=xl6528824 style='height:15.0pt;border-top:none'>Periode
@@ -254,7 +295,7 @@
         <table class="table table-borderless table-striped table-earning table-khusus">
             <thead>
                 <tr height=20 style='height:15.0pt'>
-                  <th colspan=16 height=20 class=xl6528824 style='height:15.0pt'>Level 1</th>
+                  <th colspan=16 height=20 class=xl6528824 style='height:15.0pt'>Level 1 (BOBBIN)</th>
                  </tr>
                  <tr height=20 style='height:15.0pt'>
                   <th height=20 class=xl6528824 style='height:15.0pt;border-top:none'>Periode
@@ -399,7 +440,7 @@
         <table class="table table-borderless table-striped table-earning table-khusus">
             <thead >
             <tr height=20 style='height:15.0pt'>
-                 <th colspan=16 height=20 class=xl6528824 style='height:15.0pt'>Level 1</th>
+                 <th colspan=16 height=20 class=xl6528824 style='height:15.0pt'>Level 1 (CORE)</th>
                 </tr>
                 <tr height=20 style='height:15.0pt'>
                  <th height=20 class=xl6528824 style='height:15.0pt;border-top:none'>Periode
@@ -544,7 +585,7 @@
         <table class="table table-borderless table-striped table-earning table-khusus">
             <thead >
             <tr height=20 style='height:15.0pt'>
-                <th colspan=16 height=20 class=xl6528824 style='height:15.0pt'>Level 1</th>
+                <th colspan=16 height=20 class=xl6528824 style='height:15.0pt'>Level 1 (BASE)</th>
                </tr>
                <tr height=20 style='height:15.0pt'>
                 <th height=20 class=xl6528824 style='height:15.0pt;border-top:none'>Periode
