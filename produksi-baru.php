@@ -17,7 +17,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Perencanaan Produksi</title>
+    <title>Pengadaan Material</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -180,7 +180,7 @@
 
                         <li class="active">
                             <a href="produksi-baru.php">
-                                <i class="fas fa-boxes"></i>Rencana Produksi Baru</a>
+                                <i class="fas fa-boxes"></i>Pengadaan Material</a>
                         </li>
 
                         <li>

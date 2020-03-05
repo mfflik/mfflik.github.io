@@ -17,7 +17,7 @@
   <body>
     <header class="clearfix">
         <h1 style="font-size:50pt; text-align:center;">CV. AMKA</h1>
-      <h1>INVOICE</h1>
+      <!-- <h1>INVOICE</h1> -->
       <div id="company" class="clearfix">
         <div>CV. AMKA</div>
         <div>Jalan Raya Cihampelas, Mekarmukti<br /> Kec.Cihampelas</div>

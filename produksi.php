@@ -180,7 +180,7 @@
 
                         <li class="">
                             <a href="produksi-baru.php">
-                                <i class="fas fa-boxes"></i>Rencana Produksi Baru</a>
+                                <i class="fas fa-boxes"></i>Pengadaan Material</a>
                         </li>
 
                         <li>

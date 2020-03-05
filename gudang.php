@@ -210,7 +210,8 @@
                                                             <th width=5%>Tanggal</th>
                                                             <th>Produk</th>
                                                             <th>Jumlah</th>
-                                                            <th></th>
+                                                            <th>Status</th>
+                                                            <th>Print</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
@@ -252,6 +253,9 @@
                                                             ?>
                                                             <td><?php echo $data['status_gudang']; ?></td>
                                                             <?php } ?>
+                                                        </tr>
+                                                        <tr>
+                                                             <a href="print-gudang.php?id=<?php echo $data['id_gudang']; ?>" class="button-pemilik-ya">Print</a>
                                                         </tr>
                                                         <?php
                                                                     $no++;
