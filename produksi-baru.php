@@ -182,6 +182,11 @@
                             <a href="produksi-baru.php">
                                 <i class="fas fa-boxes"></i>Rencana Produksi Baru</a>
                         </li>
+
+                        <li>
+                            <a href="rencana-produksi-baru.php?isi=tidak_ada">
+                                <i class="fas fa-boxes"></i>Rencana Produksi Baru</a>
+                        </li>
                     
                         <li>
                             <a href="logout.php">
