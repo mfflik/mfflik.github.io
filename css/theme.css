@@ -14718,3 +14718,14 @@ section {
     font-weight: 400;
     border-radius: 2px;
 }
+
+.input-rpp{
+    padding: 10px;
+    border: 1px solid rgb(224, 224, 224);
+    
+}
+
+.td-rpp{
+    vertical-align: middle !important;
+    font-size: 13pt;
+}
