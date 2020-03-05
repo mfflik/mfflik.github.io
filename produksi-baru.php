@@ -210,7 +210,7 @@
                                 <form method="POST">
                                     <div class="user-data m-b-30"  style="padding-right:40px !important; padding-left:40px !important;">
                                         <h3 class="title-3 m-b-30">
-                                        <i class="zmdi zmdi-account-calendar"></i>Rencana Ajuan Baru</h3>
+                                        <i class="zmdi zmdi-account-calendar"></i>Pengadaan Material</h3>
                                     <!-- USER DATA-->
                                     <div class="row">
                                         <div class="col-md-3">

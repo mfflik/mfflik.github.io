@@ -16,7 +16,10 @@
   </head>
   <body>
     <header>
-        <h1 style="font-size:20pt; text-align:right;">Surat Jalan</h1>
+         <div align="right">
+  <h2> Surat Jalan</h2>
+</div> 
+        <!--<h2 text-align:"right"></h2>-->
       <!-- <h1>INVOICE</h1> -->
       <div id="company" class="clearfix">
         <div><span>Tanggal</span>  <?php echo $data['tanggal_gudang'];?></div>
@@ -25,7 +28,7 @@
         <div>CV. AMKA</div>
         <div>Jalan Raya Cihampelas, Mekarmukti<br /> Kec.Cihampelas</div>
         <div>Kabupaten Bandung Barat</div>
-        <div>Jawa barat 40562</div>
+        <div>Jawa barat 40562</div><br>
       </div>
     </header>
     <main>
@@ -46,40 +49,18 @@
             <td></td>
           </tr>
         </tbody>
-        <tfoot>
-        <tr>
-            <td>Catatan</td>
-            <td colspan="3">Perhatian <br>
+      </table>
+      <br>
+    Catatan : <br>
+    <br>
             1. Surat Jalan ini merupakan bukti resmi penerimaan barang <br>
             2. Surat Jalan ini bukan bukti penjualan<br>
-            3. Suart Jalan ini akan dilengkapi invoice sebagai bukti penjualan</td>
-        </tr>
-        </tfoot>
-      </table>
-      <i>BARANG SUDAH DITERIMA DALAM KEADAAN BAIK DAN CUKUP OLEH : <i>
+            <br>
+      <i>BARANG SUDAH DITERIMA DALAM KEADAAN BAIK DAN CUKUP OLEH : </i>
           <br><br><br>
-      <div id="company" class="clearfix">
-        <div>Petugas Gudang</div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div>______________</div>  
-    </div>
-    <div id="center">
-       <div>Bagian Pengiriman</div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div>______________</div>  
-      </div>
-      <div id="project">
-       <div>Penerima / Pembeli</div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div>______________</div>  
-      </div>
-      
+        <div>Penerima / Pembeli &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;   Petugas Gudang &emsp; &emsp;&emsp;  &emsp;&emsp;  &emsp;&emsp;  &emsp; &emsp;  &emsp;  &emsp;  &emsp;  &emsp;   &emsp;   Bagian Pengiriman</div>
+        <br><br><br><br>
+     <div>_______________&emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;   ________________&emsp;&emsp;  &emsp;&emsp;  &emsp;&emsp;  &emsp; &emsp;  &emsp;  &emsp;  &emsp;  &emsp;   &emsp;   ________________</div>
     </main>
     <!-- <footer>
       CV AMKA - Jalan Raya Cihampelas, Mekarmukti, Kec.Cihampelas, Kabupaten Bandung Barat, Jawa Barat 40562
