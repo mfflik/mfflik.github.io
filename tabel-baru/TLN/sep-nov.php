@@ -165,7 +165,7 @@
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="#">
-                    <img src="../../images/icon/logo.png"/>
+                    <img src="../../images/icon/logo.png" alt="Cool Admin" />
                 </a>
                 <h5>Produksi</h5>
             </div>
@@ -179,7 +179,12 @@
                         </li>
 
                         <li class="active">
-                            <a href="../../produksi-baru.php">
+                            <a href="../../produksi-baru.php?jumlah=0">
+                                <i class="fas fa-boxes"></i>Pengadaan Material</a>
+                        </li>
+
+                        <li>
+                            <a href="../../rencana-produksi-baru.php?isi=tidak_ada">
                                 <i class="fas fa-boxes"></i>Rencana Produksi Baru</a>
                         </li>
                     

@@ -179,7 +179,7 @@
                         </li>
 
                         <li class="active">
-                            <a href="produksi-baru.php">
+                            <a href="produksi-baru.php?jumlah=0">
                                 <i class="fas fa-boxes"></i>Pengadaan Material</a>
                         </li>
 
@@ -242,8 +242,11 @@
                                             </div>
                                         </div>
 
+                                        <?php
+                                            $jumlah = $_GET['jumlah'];
+                                        ?>
                                         <div class="col-md-3">
-                                            <input class="au-input form-produksi" type="number" name="jumlah_produk" style="margin-top:0px !important" placeholder="Jumlah"> 
+                                            <input class="au-input form-produksi" type="number" name="jumlah_produk" style="margin-top:0px !important" value="<?php echo $jumlah?>"> 
                                         </div>
 
                                         <div class="col-md-3">

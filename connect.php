@@ -1,3 +1,3 @@
 <?php
-    $connect = mysqli_connect('db4free.web.id','agryweb','1Sampai8?','agryweb');
+    $connect = mysqli_connect('remotemysql.com','zErTqfLtZH','wBaq2TwkYW','zErTqfLtZH');
 ?>

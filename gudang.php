@@ -252,11 +252,13 @@
                                                                 else{
                                                             ?>
                                                             <td><?php echo $data['status_gudang']; ?></td>
+                                                         
                                                             <?php } ?>
-                                                        </tr>
-                                                        <tr>
+                                                               <td>
                                                              <a href="print-gudang.php?id=<?php echo $data['id_gudang']; ?>" class="button-pemilik-ya">Print</a>
+                                                        </td>
                                                         </tr>
+                                                        
                                                         <?php
                                                                     $no++;
                                                                 }

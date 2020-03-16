@@ -179,7 +179,7 @@
                         </li>
 
                         <li class="">
-                            <a href="produksi-baru.php">
+                            <a href="produksi-baru.php?jumlah=0">
                                 <i class="fas fa-boxes"></i>Pengadaan Material</a>
                         </li>
 
@@ -248,6 +248,11 @@
                     $x23 = round($B12 + ($B6*23));
                     $x24 = round($B12 + ($B6*24));
 
+                    $m1 = $x13+$x14+$x15;
+                    $m2 = $x16+$x17+$x18;
+                    $m3 = $x19+$x20+$x21;
+                    $m4 = $x22+$x23+$x24;
+
                     $query_input = "INSERT INTO rpp (t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t23,t24) VALUES ('$x1','$x2','$x3','$x4','$x5','$x6','$x7','$x8','$x9','$x10','$x11','$x12','$x13','$x14','$x15','$x16','$x17','$x18','$x19','$x20','$x21','$x22','$x23','$x24')";
                     $input = mysqli_query($connect,$query_input);
 
@@ -258,7 +263,7 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-4">
                                 <form method="POST" action="rencana-produksi-baru.php?isi=ada">
                                     <!-- USER DATA-->
                                     <div class="user-data m-b-30" style="padding-left:40px !important; padding-right:40px !important;">
@@ -266,8 +271,8 @@
                                             <table class="table table-borderless table-striped table-earning table-khusus">
                                                 <thead>
                                                     <tr>
-                                                        <th width="10%" style="padding:20px!important;">Periode (t)</th>
-                                                        <th style="padding:20px!important;">Permintaan Produk (X)</th>
+                                                        <th width="10%" style="padding:20px!important;">(t)</th>
+                                                        <th style="padding:20px!important;">(X)</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -328,7 +333,7 @@
                                 <!-- END USER DATA-->
                             </div>
 
-                            <div class="col-lg-6">
+                            <div class="col-lg-4">
                                 <form method="POST">
                                     <!-- USER DATA-->
                                     <div class="user-data m-b-30" style="padding-left:40px !important; padding-right:40px !important;">
@@ -336,8 +341,8 @@
                                             <table class="table table-borderless table-striped table-earning table-khusus">
                                                 <thead>
                                                     <tr>
-                                                        <th width="10%" style="padding:20px!important;">Periode (t)</th>
-                                                        <th style="padding:20px!important;">Permintaan Produk (X)</th>
+                                                        <th width="10%" style="padding:20px!important;">(t)</th>
+                                                        <th style="padding:20px!important;">(X)</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -395,6 +400,38 @@
                                     </div>
                                 </form>
                                 <!-- END USER DATA-->
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="user-data m-b-30" style="padding-left:40px !important; padding-right:40px !important; margin-top:100px; margin-bottom:5px !important;">
+                                            <input type="number" class="input-rpp" name="m1" value="<?php echo $m1; ?>" style="font-size:10pt" disabled>
+                                            <a href="produksi-baru.php?jumlah=<?php echo $m1; ?>" class="au-btn au-btn--block au-btn--green m-b-20" style="margin-top:20px; margin-bottom:45px; text-align:center;">Pilih</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="user-data m-b-30" style="padding-left:40px !important; padding-right:40px !important; margin-bottom:5px !important;">
+                                            <input type="number" class="input-rpp" name="m2" value="<?php echo $m2; ?>" style="font-size:10pt;" disabled>
+                                            <a href="produksi-baru.php?jumlah=<?php echo $m2; ?>" class="au-btn au-btn--block au-btn--green m-b-20" style="margin-top:20px; margin-bottom:40px;  text-align:center;">Pilih</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="user-data m-b-30" style="padding-left:40px !important; padding-right:40px !important; margin-bottom:5px !important;">
+                                            <input type="number" class="input-rpp" name="m3" value="<?php echo $m3; ?>" style="font-size:10pt;" disabled>
+                                            <a href="produksi-baru.php?jumlah=<?php echo $m3; ?>" class="au-btn au-btn--block au-btn--green m-b-20" style="margin-top:20px; margin-bottom:45px;  text-align:center;">Pilih</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="user-data m-b-30" style="padding-left:40px !important; padding-right:40px !important;">
+                                            <input type="number" class="input-rpp" name="m4" value="<?php echo $m4; ?>" style="font-size:10pt;" disabled>
+                                            <a href="produksi-baru.php?jumlah=<?php echo $m4; ?>" class="au-btn au-btn--block au-btn--green m-b-20" style="margin-top:20px; margin-bottom:40px;  text-align:center;">Pilih</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>    
                     </div>

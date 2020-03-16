@@ -179,7 +179,7 @@
                         </li>
 
                         <li class="">
-                            <a href="produksi-baru.php">
+                            <a href="produksi-baru.php?jumlah=0">
                                 <i class="fas fa-boxes"></i>Pengadaan Material</a>
                         </li>
 
