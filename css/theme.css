@@ -1685,6 +1685,7 @@ section {
 }
 
 .header-mobile .header-mobile-inner {
+	background-image: url('../images/bg.jpg');
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
