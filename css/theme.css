@@ -108,7 +108,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
+h1 {   
+font-family: "Poppins" , sans-serif; 
+font-size: 30px; 
+color: #ffeaa7; 
+text-align: center;  
+padding: 20px 0px; },
 h2,
 h3,
 h4,
