@@ -258,7 +258,7 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-4">
                                 <form method="POST" action="rencana-produksi-baru.php?isi=ada">
                                     <!-- USER DATA-->
                                     <div class="user-data m-b-30" style="padding-left:40px !important; padding-right:40px !important;">
@@ -328,7 +328,7 @@
                                 <!-- END USER DATA-->
                             </div>
 
-                            <div class="col-lg-6">
+                            <div class="col-lg-4">
                                 <form method="POST">
                                     <!-- USER DATA-->
                                     <div class="user-data m-b-30" style="padding-left:40px !important; padding-right:40px !important;">
