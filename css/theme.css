@@ -340,7 +340,6 @@ section {
     background: #e5e5e5;
     height: 100vh;
 	background-image: url('../images/bg.jpg');
-    background-size: 100%;
 }
 
 .login-wrap {
