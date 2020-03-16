@@ -292,8 +292,6 @@ section {
 }
 }
 .page-container {
-	background-image: url('../images/bg.jpg');
-    background-size: 100%;
     background: #e5e5e5;
     padding-left: 300px;
 }
