@@ -2291,8 +2291,7 @@ section {
 }
 
 .navbar-sidebar2 .navbar__sub-list li {
-    background-image: url('../images/bg.jpg');
-	background-size: 100%;
+    background: #f5f5f5;
 }
 
 .navbar-sidebar2 .navbar__sub-list li a {
