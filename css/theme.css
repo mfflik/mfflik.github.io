@@ -337,9 +337,9 @@ section {
 }
 
 .page-content--bge5 {
+    height: 100vh;
 	background-image: url('../images/bg.jpg');
     background-size: 100%;
-    background-repeat:no-repeat;
 }
 
 .login-wrap {
