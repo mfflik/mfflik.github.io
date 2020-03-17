@@ -101,15 +101,15 @@ textarea:focus, input:focus {
   border-color: transparent !important;
 }
 
-input::-webkit-input-placeholder { color: #999999;}
-input:-moz-placeholder { color: #999999;}
-input::-moz-placeholder { color: #999999;}
-input:-ms-input-placeholder { color: #999999;}
+input::-webkit-input-placeholder { color: #fff;}
+input:-moz-placeholder { color: #fff;}
+input::-moz-placeholder { color: #fff;}
+input:-ms-input-placeholder { color: #fff;}
 
-textarea::-webkit-input-placeholder { color: #999999;}
-textarea:-moz-placeholder { color: #999999;}
-textarea::-moz-placeholder { color: #999999;}
-textarea:-ms-input-placeholder { color: #999999;}
+textarea::-webkit-input-placeholder { color: #fff;}
+textarea:-moz-placeholder { color: #fff;}
+textarea::-moz-placeholder { color: #fff;}
+textarea:-ms-input-placeholder { color: #fff;}
 
 /*---------------------------------------------*/
 button {
@@ -244,7 +244,7 @@ iframe {
 .login100-form-title {
   font-family: Poppins-Regular;
   font-size: 20px;
-  color: #555555;
+  color: #ffffff;
   line-height: 1.2;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -281,7 +281,7 @@ iframe {
   background: transparent;
   font-family: Poppins-Regular;
   font-size: 18px;
-  color: #666666;
+  color: #ffffff;
   line-height: 1.2;
   padding: 0 25px;
 }
